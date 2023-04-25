@@ -3,13 +3,13 @@ with customers as (
     select * from {{ ref('stg_jaffle_shop_customers')}}
 
 ),
-
+ 
 orders as (
 
     select * from {{ ref('fct_orders')}}
 
 ),
-
+-- xnx
 customer_orders as (
 
     select

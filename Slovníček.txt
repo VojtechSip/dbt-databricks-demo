@@ -1,0 +1,12 @@
+Generace X (ETL)    Generace Z (DBT)    Význam
+ETL job             model               Proces kterej přesouvá data ze zdroje na cíl
+model               schema (+-)         
+snapshot            ?                   Snímek dat
+verzování, SCD      snapshot            Proces, kterej podle snímku dat na zdroji verzuje data na cíli
+data                seed                Data
+macro               macro               Kus kódu použitelný substitucí v jiným kódu
+typ jobu            materialization     Způsob zpracování
+cíl                 target              Cílové úložiště/adresář dat
+vygenerovaný kód    target              Výsledný ETL kód vygenerovaný z metadat
+connection/env      profile             Informace o připojení k úložišti nebo systému (např. db)
+

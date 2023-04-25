@@ -9,7 +9,7 @@ orders as (
     select * from {{ ref('fct_orders')}}
 
 ),
--- xnx
+-- xnxdddd
 customer_orders as (
 
     select

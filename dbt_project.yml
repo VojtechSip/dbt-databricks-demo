@@ -21,6 +21,8 @@ models:
     marts:
       # materialize all models in models/marts as tables
       +materialized: table
+      +schema: marts
     staging:
       # materialize all models in models/marts as tables
       +materialized: view
+      +schema: staging      
